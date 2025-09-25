@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*::selection{
+    background-color: rgb(204, 253, 253);
+}
+body{
+    margin: 0px;
+    width: auto;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+section div div{
+    width: 100%;
+}
+
+
+div div h1{
+    font-size: 4vw;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+    
+
+}
+
+
+
+
+div div p {
+    font-size: 1.8vw;
+    font-weight: 400;
+    width: 100%;
+    
+    
+   
+
+}
+
+.container{
+    padding: 0px 40px;
+    
+}
+
+.first{
+    display: flex;
+}
+.section1{
+    margin-top: 60px;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    font-size: 24px;
+    
+}
+
+.section1.visible {
+    opacity: 1;
+}
+
+.mainlogo{
+    margin-top: 50px;
+    
+    
+    
+}
+
+div div input, button{
+    display: block;
+    margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 30px;
+    border-color: #9B99AF;
+    box-sizing: border-box;
+    
+}
+div div input{
+    width: 80%;
+    height: 4vw;
+    margin-top: 80px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+div div button{
+    width: 80%;
+    height: 4vw;
+    background-color: #4262FF;
+    color: white;
+    font-size: 1em;
+    transition: all 0.35s;
+}
+
+div div button:hover{
+    background-color: #284bfe ;
+}
+
+div div button:active {
+    background-color: #1d3cd4;
+}
+
+div div input:focus{
+    background-color: rgb(255, 253, 249);
+}
+
+
+.secondp{
+    font-size: 14px;
+}
+
+.images{
+    display: flex;
+    margin-top: 52px;
+    
+    
+}
+
+div div div img{
+    width: auto;
+    margin: 0px;
+    padding-left: 50px;
+}
+
+div div div p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 200px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+/***************HEADER******************/
+
+header{
+    background-color:#fffbfb ;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    
+    
+}
+
+header ul{
+    list-style: none;
+    margin: 0px 0px;
+    display: flex;
+    padding: 33px 0px;
+    gap: 34px;
+    font-weight: 400;
+    
+    padding-left: 40px;
+    
+
+}
+
+header ul a:hover{
+    transition: all 0.5s;
+    color: rgb(68, 68, 68);
+    text-decoration: underline;
+}
+header ul a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+@media (max-width:375px) {
+    header {
+            width: 100%;
+        }
+    
+        .first {
+            display: flex;
+            flex-flow: column;
+    
+        }
+    
+        .mainlogo {
+            max-width: 460px;
+            height: auto;
+    
+        }
+    
+        .section1 {
+            width: 100%;
+        }
+    
+    
+    
+        div div div img {
+            display: none;
+        }
+    
+        div div h1 {
+            font-size: 32px;
+            font-weight: 400;
+            letter-spacing: 1px;
+    
+    
+    
+        }
+    
+        header ul {
+            list-style: none;
+            margin: 0px 0px;
+            display: flex;
+            padding: 33px 0px;
+            
+            font-weight: 400;
+            font-size: 2.5vw;
+            padding-left: 10px;
+    
+        }
+            
+       
+    
+    
+    
+        div div p {
+            font-size: 18px;
+            font-weight: 400;
+            padding-right: 0;
+    
+    
+    
+        }
+    
+        div div input {
+            width: 100%;
+            height: 5vh;
+    
+        }
+    
+        div div button {
+            width: 100%;
+            height: 5vh;
+    
+        }
+        header ul {
+            
+            padding-left: 15px;
+    
+        }
+    }
+
+@media (max-width:540px) {
+    header{
+        width: 100%;
+    }
+
+    header ul{
+        font-size: 2.5vw;
+    }
+    .first {
+        display: flex;
+        flex-flow: column;
+
+    }
+
+    .mainlogo {
+        max-width: 460px;
+        height: auto;
+
+    }
+
+    .section1 {
+        width: 100%;
+    }
+
+    
+
+    div div div img {
+        display: none;
+    }
+
+    div div h1{
+        font-size: 32px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        
+    
+
+        }
+    
+        
+
+
+
+    div div p {
+        font-size: 18px;
+        font-weight: 400;
+        padding-right: 0;
+        
+    
+
+    }
+    div div input{
+        width: 100%;
+        height: 5vh;
+        
+}
+
+    div div button{
+        width: 100%;
+        height: 5vh;
+        
+    }
+}
+
+
+
+@media (max-width:1000px) {
+    
+        header {
+                width: 100%;
+            }
+        
+            header ul {
+                font-size: 2.5vw;
+            }
+        
+            .first {
+                display: flex;
+                flex-flow: column;
+        
+            }
+        
+            .mainlogo {
+                width: 100%;
+                height: auto;
+        
+            }
+        
+            .section1 {
+                width: 100%;
+            }
+        
+        
+        
+            div div div img {
+                display: none;
+            }
+        
+            div div h1 {
+                font-size: 8vw;
+                font-weight: 400;
+                letter-spacing: 1px;
+        
+        
+        
+            }
+        
+        
+        
+        
+        
+            div div p {
+                font-size: 6vw;
+                font-weight: 400;
+                padding-right: 0;
+        
+        
+        
+            }
+        
+            div div input {
+                width: 100%;
+                height: 9vh;
+        
+            }
+        
+            div div button {
+                width: 100%;
+                height: 9vh;
+        
+            }
+        }
+
