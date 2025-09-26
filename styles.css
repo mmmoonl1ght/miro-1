@@ -720,22 +720,19 @@ footer div{
 
     }
 
-@media (max-width:540px) {
-    header{
+@media (min-width:851px) and (max-width:1279px) {
+    header {
         width: 100%;
     }
 
-    header ul{
-        font-size: 2.5vw;
-    }
     .first {
         display: flex;
-        flex-flow: column;
+        flex-direction: column;
 
     }
 
     .mainlogo {
-        max-width: 460px;
+        max-width: 100%;
         height: auto;
 
     }
@@ -744,112 +741,372 @@ footer div{
         width: 100%;
     }
 
-    
+
 
     div div div img {
         display: none;
     }
 
-    div div h1{
-        font-size: 32px;
+    div div h1 {
+        font-size: 64px;
         font-weight: 400;
         letter-spacing: 1px;
-        
-    
-
-        }
-    
-        
 
 
+
+    }
+
+    header ul {
+        list-style: none;
+        margin: 0px 0px;
+        display: flex;
+        padding: 33px 0px;
+
+        font-weight: 400;
+        font-size: 2.5vw;
+        padding-left: 10px;
+
+    }
 
     div div p {
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 400;
         padding-right: 0;
-        
-    
+
+
 
     }
-    div div input{
-        width: 100%;
-        height: 5vh;
-        
-}
 
-    div div button{
+    div div input {
         width: 100%;
         height: 5vh;
+
+    }
+
+    div div button {
+        width: 100%;
+        height: 5vh;
+
+    }
+
+    header ul {
+
+        padding-left: 15px;
+
+    }
+
+    .section2 {
+        flex-direction: row;
+        margin-top: 0;
+        padding-right: 0;
+        flex-wrap: wrap;
+
+    }
+
+    .section2 img {
+        position: relative;
+        left: 0px;
+        width: 70%;
+    }
+
+    .section2 div h2 {
+        font-size: 4vw;
+        font-weight: 400;
+        padding-top: 0;
+        padding-right: 0;
+        width: 180%
+    }
+
+    .section2 div p {
+        font-size: 2vw;
+        padding-right: 0px;
+        color: #05003899;
+        width: 180%
+    }
+
+    .section3 {
+        flex-direction: column;
+        padding-left: 40px;
+    }
+
+    .section3 div h2 {
+        font-size: 6vw;
+        font-weight: 400;
+        padding-top: 25px;
+    }
+
+    .section3 div p {
+        font-size: 2vw;
+        padding-right: 0;
+        color: #05003899;
+    }
+
+    .section3 img{
+        width: 80%;
+    }
+
+    .section3 div a {
+        position: relative;
+        top: -5px;
+        text-decoration: none;
+        color: blue;
+    }
+
+    .section3 div {
+        width: 80%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .s4nav {
+        flex-wrap: wrap;
         
+    }
+
+    .s4nav button{
+        flex-basis: 200px;
+    }
+    .sect4 > img{
+        width: 80%;
+    }
+    .sect4{
+        flex-direction: column;
+
+    }
+
+    .sect4 ul li{
+       
+    }
+
+    .section5 {
+        background-color: rgba(255, 208, 47, 1);
+        margin-top: 20px;
+    }
+
+    .section5 h2 {
+        font-size: 48px;
+        text-align: center;
+        width: 600px;
+        font-weight: 400;
+        padding-top: 50px;
+        margin: 0 auto;
+        margin-bottom: 18px;
+    }
+
+
+    .section5>div {
+
+        flex-direction: row;
+        
+    }
+    .section5 div div{
+        flex-basis: 50%;
+    }
+    .section6>div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 120px;
+        justify-content: space-between;
+
+    }
+
+    .section7 .wrap {
+        background-color: rgba(5, 0, 56, 1);
+        padding: 140px 20px;
+        border-radius: 30px;
+    }
+
+    .section7 h2 {
+        font-size: 18px;
+
+    }
+
+    footer {
+        display: flex;
+        
+    }
+
+    .footdiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+    .footdiv div{
+        padding-left: 40px;
     }
 }
 
 
-
-@media (max-width:1000px) {
-    
-        header {
-                width: 100%;
-            }
-        
-            header ul {
-                font-size: 2.5vw;
-            }
-        
-            .first {
-                display: flex;
-                flex-flow: column;
-        
-            }
-        
-            .mainlogo {
-                width: 100%;
-                height: auto;
-        
-            }
-        
-            .section1 {
-                width: 100%;
-            }
-        
-        
-        
-            div div div img {
-                display: none;
-            }
-        
-            div div h1 {
-                font-size: 8vw;
-                font-weight: 400;
-                letter-spacing: 1px;
-        
-        
-        
-            }
-        
-        
-        
-        
-        
-            div div p {
-                font-size: 6vw;
-                font-weight: 400;
-                padding-right: 0;
-        
-        
-        
-            }
-        
-            div div input {
-                width: 100%;
-                height: 9vh;
-        
-            }
-        
-            div div button {
-                width: 100%;
-                height: 9vh;
-        
-            }
+@media (min-width:1280px) and (max-width:1330px){
+    header {
+            width: 1320px;
         }
+}
+@media (min-width:1460px) and (max-width:3000px){
+    header ul {
+            list-style: none;
+            margin: 0px 0px;
+            display: flex;
+            padding: 33px 0px;
+    
+            font-weight: 400;
+            font-size: 2vw;
+            padding-left: 2vw;
+    
+        }
+
+    .container div form input{
+        font-size: 2vw;
+    }
+    .container div form button{
+        font-size: 2vw;
+    }
+    .container div p{
+        font-size: 1vw;
+    }
+    .section2 img{
+        width: 50%;
+        left: 0px;
+    }
+
+    .section2 div h2{
+        padding-right: 40px;
+        padding-top: 100px;
+    }
+
+    .section2 div p{
+        font-size: 2vw;
+    }
+
+    .section2 div a{
+        font-size: 2vw;
+    }
+
+    .section3 div h2{
+        flex-basis: 50%;
+    }
+    .section3 div p{
+        font-size: 2vw;
+    }
+
+    .section3 div a{
+        font-size: 2vw;
+    }
+
+    .section3 img{
+        width: 50%;
+    }
+
+    .s4nav button{
+        
+        font-size: 1vw;
+        flex-basis: calc(100%/5);
+        height: 10vh;
+    }
+    .sect4 div{
+        flex-basis: 50%;
+    }
+
+    .sect4 img{
+        width: 70%;
+    }
+
+    .sect4 div ul{
+        font-size: 2vw;
+    }
+    .sect4 div ul li::before{
+        width: 40px;
+        height: 4vh;
+        display: inline-block;
+    }
+
+    .sect4 div a{
+        font-size: 1vw;
+        margin-top: 40px;
+    }
+
+    .sect4 div span{
+        font-size: 1vw;
+        margin-top: 40px;
+    }
+    .sect4 div img{
+        font-size: 1vw;
+        margin-top: 40px;
+    }
+
+    .section4 h2{
+        font-size: 3vw;
+    }
+
+    .section5 h2{
+        font-size: 2vw;
+        width: 30%;
+    }
+
+    .section5 div div p{
+        font-size: 1.5vw;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section6 h2{
+        font-size: 2vw;
+    }
+    .section6 button{
+        width: 20vw;
+        font-size: 1vw;
+        height: 4vw;
+    }
+
+    .section6 div div p{
+        font-size: 1vw;
+        line-height: 2vw;
+    }
+    .section6 div div div div p{
+        font-size: 1vw;
+        width: 100%;
+    }
+    .section6 div div > div {
+    display: flex;
+    flex-basis: 100%;
+    }
+    .section6 div div div img {
+        display: none;
+    }
+
+    .wrap h2{
+        font-size: 3vw;
+        padding: 0px 5vw;
+    }
+    .wrap p{
+        font-size: 1.5vw
+    }
+    .wrap a{
+        font-size: 1vw;
+    }
+    .wrap button{
+        width: 23vw;
+        height: 4vw;
+        font-size: 2vw;
+    }
+
+    footer{
+        font-size: 1vw;
+        
+    }
+
+    footer span{
+        line-height: 90px;
+    }
+
+    .footdiv div img{
+        width: 2vw;
+        padding: 0 1vw;
+    }
+    .fd2 img{
+        width: 10vw;
+        padding: 40px 4vw;
+    }
+}
 
