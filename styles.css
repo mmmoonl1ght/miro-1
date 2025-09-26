@@ -62,7 +62,7 @@ div div p {
 
 .mainlogo{
     margin-top: 50px;
-    
+    width: 100%;
     
     
 }
@@ -77,7 +77,7 @@ div div input, button{
     
 }
 div div input{
-    width: 80%;
+    width: 90%;
     height: 4vw;
     margin-top: 80px;
     padding-left: 40px;
@@ -85,7 +85,7 @@ div div input{
 }
 
 div div button{
-    width: 80%;
+    width: 90%;
     height: 4vw;
     background-color: #4262FF;
     color: white;
@@ -165,6 +165,405 @@ header ul a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
+/*************  SECTION 2 **********/
+
+.section2{
+    display: flex;
+    margin-top: 210px;
+}
+
+.section2 div h2{
+    font-size: 3.5vw;
+    font-weight: 400;
+    padding-top: 60px;
+}
+.section2 div p{
+    font-size: 1.3vw;
+    padding-right: 100px;
+    color: #05003899;
+}
+
+.section2 div a{
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+    color: blue;
+
+}
+
+.section2 img{
+    position: relative;
+    left: 80px;
+}
+
+
+.section2 div{
+    width: 50%;
+}
+
+/*************  SECTION 3 **********/
+
+
+.section3 {
+    display: flex;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.section3 div h2 {
+    font-size: 3.5vw;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.section3 div p {
+    font-size: 1.3vw;
+    padding-right: 40px;
+    color: #05003899;
+}
+
+.section3 div a {
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    color: blue;
+}
+
+.section3 div{
+    width: 65%;
+    margin-left: 120px;
+}
+
+
+/***********  Секция 4 **********/
+.section4{
+    margin-top: 120px;
+}
+.section4 h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.s4nav{
+    display: flex;
+    gap: 20px;
+}
+
+.s4nav button:nth-child(3){
+    width: 230px;
+}
+.s4nav button:nth-child(1) {
+    background-color: #F1F3FD;
+}
+
+.s4nav button{
+    width: 120px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid rgba(242, 242, 242, 1);
+}
+
+
+.sect4{
+    display: flex;
+}
+
+.sect4 div ul{
+    position: relative;
+    top: -20px; 
+    list-style: none;
+    padding-left: 0;
+    color: rgba(5, 0, 56, 0.6);
+    margin-bottom: 58px;
+    font-size: 18px;
+}
+
+.sect4 div ul li{
+    padding-top: 20px;
+    padding-left: 15px;
+    
+}
+
+.sect4 div ul li::before{
+    content: url(img/Frame.png);
+    position: relative;
+    top: 5px;
+    left: -15px;
+    
+    
+}
+
+.sect4 div a{
+    text-decoration: none;
+    color: blue;
+}
+.sect4 div span{
+    display: block;
+    margin-top: 70px;
+    color: rgba(5, 0, 56, 0.6);
+    font-size: 18px;
+}
+
+.sect4 div img{
+    margin-top: 10px;
+}
+
+.sect4logo{
+    padding-right: 20px;
+    
+   
+}
+
+.sect4 div img{
+    width: 60%;
+}
+
+
+/**************section5********/
+.section5{
+    background-color: rgba(255, 208, 47, 1);
+}
+
+.section5 h2{
+    font-size: 48px;
+    text-align: center;
+    width: 500px;
+    font-weight: 400;
+    padding-top: 120px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.section5 a{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+}
+.section5 > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    row-gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    
+    
+    
+}
+
+.section5 div div p{
+    font-size: 18px;
+}
+
+.section5 div div{
+    flex-basis: 33%;
+    text-align: center;
+}
+
+
+
+/****** Section6 ******/
+
+.section6 > div{
+    display: flex;
+    column-gap: 120px;
+    justify-content: space-between;
+    
+}
+.section6 div div p{
+    font-size: 16px;
+    color: rgba(5, 0, 56, 0.6);
+    line-height: 25px;
+    
+
+}
+
+.section6 div div{
+    flex-basis: 31%;
+    padding-right: 40px;
+    text-align: justify;
+}
+.s6span{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: rgba(5, 0, 56, 0.6);
+    flex-wrap: nowrap;
+
+    
+    
+}
+
+.section6 div div > div{
+    display: flex;
+    
+}
+
+.section6 div div div img{
+    padding-left: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.lara{
+    position: relative;
+    top: 25px;
+}
+
+.section6 h2{
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section6 button{
+    width: 260px;
+    height: 46px;
+    color: rgba(66, 98, 255, 1);
+    border: 1px solid rgba(66, 98, 255, 1);
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+
+.section6 div div div div p{
+    font-size: 12px;
+    text-align: left;
+    line-height: normal;
+}
+
+/*********Секция 8******/
+
+.section7{
+    margin-top: 150px;
+}
+.section7 .wrap{
+    background-color: rgba(5, 0, 56, 1);
+    padding: 140px 230px;
+    border-radius: 30px;
+    
+}
+
+.section7 h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section7 p{
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    
+    
+}
+
+.section7 a{
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    display: block;
+}
+
+.section7 button{
+    width: 250px;
+    height: 48px;
+    background-color: rgba(66, 98, 255, 1);
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(5, 0, 56, 1);
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 120px;
+    padding-top: 120px;
+}
+
+footer span{
+    display: block;
+    line-height: 30px;
+}
+
+footer div{
+    flex-basis: 24%;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+
+
+.footer2{
+    background-color: rgba(5, 0, 56, 1);
+    color: white;
+  
+    border-top: 0.5px solid rgba(155, 153, 175, 1);
+   padding-top: 50px;
+    
+}
+
+.footdiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+
+.footdiv div{
+    width: 30%;
+    position: relative;
+    right: 35px;
+}
+
+.footdiv p{
+    flex-basis: 40;
+    margin: 0 0;
+}
+
+.fd2{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:375px) {
